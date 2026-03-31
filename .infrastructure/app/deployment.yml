@@ -67,8 +67,6 @@ spec:
             secretKeyRef:
               name: app-secret
               key: DB_HOST
-        - name: HELLO
-          value: "Hello Mates!!!"
         ports:
         - containerPort: 8080
         livenessProbe:
